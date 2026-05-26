@@ -1,0 +1,26 @@
+{
+  "name": "api-cursos-matriculas",
+  "version": "1.0.0",
+  "description": "API REST para gestão de cursos e matrículas",
+  "main": "entrypoint.js",
+  "scripts": {
+    "start": "node entrypoint.js",
+    "migrate": "node command.js migrate",
+    "dev": "nodemon entrypoint.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "sequelize": "^6.37.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
